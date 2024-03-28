@@ -1,0 +1,18 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:beige;
+}
+h1{
+    color:blueviolet;
+}
+h2{
+    color:aqua;
+}
+h3{
+    color:black}
+h4{
+    color:plum;
+}
+p{ 
+    background-color: blanchedalmond;
+    color:palevioletred}
