@@ -1,18 +1,70 @@
-body{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:beige;
-}
-h1{
-    color:blueviolet;
-}
-h2{
-    color:aqua;
-}
-h3{
-    color:black}
-h4{
-    color:plum;
-}
-p{ 
     background-color: blanchedalmond;
-    color:palevioletred}
+}
+
+.cursiva {
+    font-size: italic;
+}
+
+.elemennto_con_borde {
+    border-bottom: violet 5px solid;
+}
+.tamaño_letra{
+    font-size: 50px;
+}
+.tamaño_letra2{
+    font-size: 30px;
+}
+
+.imagen{
+    display:block;
+    margin-right:20px;
+}
+
+.box1 {
+    width: 60%;
+    height: 80%;
+    border: 10%;
+    padding: 2%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 5% 25% 25% 25%;
+    gap: 5% 5%;
+
+}
+
+.grid_item_1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-items: start;
+
+
+}
+
+.grid_item_2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-items: start;
+
+
+}
+
+.grid_item_3 {
+    grid-row-start: 2;
+
+
+}
+
+.grid_item_4 {
+    grid-row-start: 3;
+
+}
